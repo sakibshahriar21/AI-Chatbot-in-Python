@@ -1,0 +1,37 @@
+{"intents":  [
+  {
+    "tag": "greetings", 
+    "patterns": ["hello", "hey", "hi", "good day", "Greetings", "what's up?", "how is it goding?"],
+    "responses": ["Hello!", "Hi!", "What can I do for you?"]
+  },
+  {
+    "tag": "goodbye", 
+    "patterns": ["cya", "See you later", "Goodbye", "I am leaving", "Have a good day", "bye", "cao", "see ya"],
+    "responses": ["sad to see you go!", "Talk to you later", "have a good day", "Goodbye!"]
+  },
+  {
+    "tag": "age", 
+    "patterns": ["how old", "how old is Sakib?", "how old are you?", "age?"],
+    "responses": ["My owner Sakib is 23 years old!", "23 years!"]
+  },
+  {
+    "tag": "name", 
+    "patterns": ["what is your name", "what should I call you?", "whats your name?", "who are you?", "Can you tell me your name?"],
+    "responses": ["You can call me Neural", "I am Neural!", "I am Neural, a virtual assistant of Sakib"]
+  },
+  {
+    "tag": "shop", 
+    "patterns": ["I would like to buy some pc games", "what are your products?", "what do you recommend?"],
+    "responses": ["Hi, you can buy pc games form steam, Link: https://store.steampowered.com/"]
+  },
+  {
+    "tag": "hours", 
+    "patterns": ["when are you guys open?", "what are your hours?", "hours of operation?"],
+    "responses": ["24/7"]
+  },
+  {
+    "tag": "music", 
+    "patterns": ["where can I listen music?", "music?"],
+    "responses": ["You can stream music online for free in Spotify! Link: https://open.spotify.com/"]
+  }
+]}
