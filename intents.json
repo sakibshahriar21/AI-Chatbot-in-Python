@@ -17,12 +17,12 @@
   {
     "tag": "name", 
     "patterns": ["what is your name", "what should I call you?", "whats your name?", "who are you?", "Can you tell me your name?"],
-    "responses": ["You can call me Neural", "I am Neural!", "I am Neural, a virtual assistant of Sakib"]
+    "responses": ["You can call me Rasa", "I am Rasa!", "I am Rasa, a virtual assistant of Sakib"]
   },
   {
     "tag": "shop", 
-    "patterns": ["I would like to buy some pc games", "what are your products?", "what do you recommend?"],
-    "responses": ["Hi, you can buy pc games form steam, Link: https://store.steampowered.com/"]
+    "patterns": ["I would like to buy some pc games", "what are your products?", "what do you recommend?", "I want to play pc games"],
+    "responses": ["Hi, you can buy/find pc games form steam, Link: https://store.steampowered.com/"]
   },
   {
     "tag": "hours", 
@@ -31,7 +31,22 @@
   },
   {
     "tag": "music", 
-    "patterns": ["where can I listen music?", "music?"],
+    "patterns": ["where can I listen music?", "I want to listen music"],
     "responses": ["You can stream music online for free in Spotify! Link: https://open.spotify.com/"]
+  },
+  {
+    "tag": "video",
+    "patterns": ["I want to watch video", "I want to watch funny video"],
+    "responses": ["You can find in youtube, Link: https://www.youtube.com/"]
+  },
+  {
+    "tag": "weather",
+    "patterns": ["What is the weather condition in dhaka?","will it rain in dhaka today"],
+    "responses": ["Go to: https://www.accuweather.com/en/bd/dhaka/28143/weather-forecast/28143"]
+  },
+  {
+    "tag": "browse",
+    "patterns": ["I want to browse web", "I want to search something","I want to find something in web"],
+    "responses": ["You can try in Google, Link: https://www.google.com/"]
   }
 ]}
